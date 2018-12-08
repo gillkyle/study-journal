@@ -41,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272D62A021BC5DD70087D9B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE0F14192104CADB0015DF4E /* ComeFollowMe.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		272D62A121BC5DDE0087D9B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE0F141E2104CADC0015DF4E /* LaunchScreen.storyboard */,
+				FE0F14162104CADB0015DF4E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		272D62A221BC5DE30087D9B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE0F14122104CADB0015DF4E /* AppDelegate.swift */,
+				272D629821BAD1180087D9B8 /* LessonsViewController.swift */,
+				272D629621BACA5C0087D9B8 /* LessonViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		272D62A321BC5DE80087D9B8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		FE0F14062104CADB0015DF4E = {
 			isa = PBXGroup;
 			children = (
@@ -62,15 +97,12 @@
 		FE0F14112104CADB0015DF4E /* ComeFollowMe */ = {
 			isa = PBXGroup;
 			children = (
-				FE0F14122104CADB0015DF4E /* AppDelegate.swift */,
-				FE0F14162104CADB0015DF4E /* Main.storyboard */,
+				272D62A321BC5DE80087D9B8 /* Assets */,
+				272D62A021BC5DD70087D9B8 /* Model */,
+				272D62A121BC5DDE0087D9B8 /* View */,
+				272D62A221BC5DE30087D9B8 /* Controller */,
 				FE0F141C2104CADC0015DF4E /* Assets.xcassets */,
-				FE0F141E2104CADC0015DF4E /* LaunchScreen.storyboard */,
 				FE0F14212104CADC0015DF4E /* Info.plist */,
-				FE0F14192104CADB0015DF4E /* ComeFollowMe.xcdatamodeld */,
-				272D629621BACA5C0087D9B8 /* LessonViewController.swift */,
-				272D629821BAD1180087D9B8 /* LessonsViewController.swift */,
-				272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */,
 			);
 			path = ComeFollowMe;
 			sourceTree = "<group>";
