@@ -11,7 +11,6 @@
 		272D629921BAD1180087D9B8 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D629821BAD1180087D9B8 /* LessonsViewController.swift */; };
 		272D629B21BAEC7C0087D9B8 /* ComeFollowMeSeeds.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */; };
 		FE0F14132104CADB0015DF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F14122104CADB0015DF4E /* AppDelegate.swift */; };
-		FE0F14152104CADB0015DF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F14142104CADB0015DF4E /* ViewController.swift */; };
 		FE0F14182104CADB0015DF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0F14162104CADB0015DF4E /* Main.storyboard */; };
 		FE0F141B2104CADB0015DF4E /* ComeFollowMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0F14192104CADB0015DF4E /* ComeFollowMe.xcdatamodeld */; };
 		FE0F141D2104CADC0015DF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0F141C2104CADC0015DF4E /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 		272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComeFollowMeSeeds.sqlite; sourceTree = "<group>"; };
 		FE0F140F2104CADB0015DF4E /* ComeFollowMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComeFollowMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0F14122104CADB0015DF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE0F14142104CADB0015DF4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE0F14172104CADB0015DF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE0F141A2104CADB0015DF4E /* HitList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HitList.xcdatamodel; sourceTree = "<group>"; };
 		FE0F141C2104CADC0015DF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				FE0F14122104CADB0015DF4E /* AppDelegate.swift */,
-				FE0F14142104CADB0015DF4E /* ViewController.swift */,
 				FE0F14162104CADB0015DF4E /* Main.storyboard */,
 				FE0F141C2104CADC0015DF4E /* Assets.xcassets */,
 				FE0F141E2104CADC0015DF4E /* LaunchScreen.storyboard */,
@@ -153,7 +150,6 @@
 				272D629721BACA5C0087D9B8 /* LessonViewController.swift in Sources */,
 				272D629921BAD1180087D9B8 /* LessonsViewController.swift in Sources */,
 				FE0F141B2104CADB0015DF4E /* ComeFollowMe.xcdatamodeld in Sources */,
-				FE0F14152104CADB0015DF4E /* ViewController.swift in Sources */,
 				FE0F14132104CADB0015DF4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
