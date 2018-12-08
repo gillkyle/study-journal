@@ -30,6 +30,18 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   @IBOutlet weak var goalTextView: UITextView!
   @IBOutlet weak var notesTextView: UITextView!
   @IBOutlet weak var lessonDateRange: UILabel!
+  @IBOutlet weak var openButton: UIButton!
+  
+  // MARK - Actions
+  @IBAction func openLink(_ sender: Any) {
+    print("Open Gospel Library")
+    let url  = URL(string: "gospellibrary://content/manual/for-the-strength-of-youth/language.p5");
+    if let url = url {
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    } else {
+      print("show error")
+    }
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
