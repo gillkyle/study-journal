@@ -67,10 +67,21 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   // MARK - Helpers
   private func saveLesson() {
     print("find right thing to update here")
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+      return
+    }
+    let managedContext = appDelegate.persistentContainer.viewContext
+    
     if let lesson = lesson {
       print(goalTextView.text)
       lesson.setValue(goalTextView.text, forKey: "goal")
       lesson.setValue(notesTextView.text, forKey: "notes")
+    }
+    
+    do {
+      try managedContext.save()
+    } catch let error as NSError {
+      print("Could not save. \(error), \(error.userInfo)")
     }
   }
 }
