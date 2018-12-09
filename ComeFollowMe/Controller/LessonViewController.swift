@@ -17,11 +17,6 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   }
   
   // MARK - Properties
-//  var lessonName = ""
-//  var lessonGoal = ""
-//  var lessonNotes = ""
-//  var lessonStartDate = ""
-//  var lessonEndDate = ""
   var lesson: NSManagedObject?
   var lessonId = 1
   
@@ -34,8 +29,14 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   
   // MARK - Actions
   @IBAction func openLink(_ sender: Any) {
-    print("Open Gospel Library")
-    let url  = URL(string: "gospellibrary://content/manual/for-the-strength-of-youth/language.p5");
+    var lessonNumber = "01"
+    if (lessonId > 9) {
+      lessonNumber = String(lessonId)
+    } else {
+      lessonNumber = "0\(lessonId)"
+    }
+    // deep link to gospel library
+    let url  = URL(string: "gospellibrary://content/manual/come-follow-me-for-individuals-and-families-new-testament-2019/\(lessonNumber)?lang=eng");
     if let url = url {
       UIApplication.shared.open(url, options: [:], completionHandler: nil)
     } else {
@@ -78,7 +79,6 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   
   // MARK - Helpers
   private func saveLesson() {
-    print("find right thing to update here")
     guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
       return
     }

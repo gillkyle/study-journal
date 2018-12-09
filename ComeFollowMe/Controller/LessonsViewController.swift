@@ -41,12 +41,7 @@ class LessonsViewController : UITableViewController {
       if let lessonVC = segue.destination as? LessonViewController {
         if let indexPath = sender as? IndexPath {
           lessonVC.lesson = lessons[indexPath.row]
-          lessonVC.lessonId = indexPath.row
-//          lessonVC.lessonName = lessons[indexPath.row].value(forKey: "name") as? String ?? ""
-//          lessonVC.lessonGoal = lessons[indexPath.row].value(forKey: "goal") as? String ?? ""
-//          lessonVC.lessonNotes = lessons[indexPath.row].value(forKey: "notes") as? String ?? ""
-//          lessonVC.lessonStartDate = lessons[indexPath.row].value(forKey: "startdate") as? String ?? ""
-//          lessonVC.lessonEndDate = lessons[indexPath.row].value(forKey: "enddate") as? String ?? ""
+          lessonVC.lessonId = indexPath.row + 1
         }
       }
     }
