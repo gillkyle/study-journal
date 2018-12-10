@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		272D629721BACA5C0087D9B8 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D629621BACA5C0087D9B8 /* LessonViewController.swift */; };
 		272D629921BAD1180087D9B8 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D629821BAD1180087D9B8 /* LessonsViewController.swift */; };
-		272D629B21BAEC7C0087D9B8 /* ComeFollowMeSeeds.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */; };
+		272D62A421BCF8960087D9B8 /* ComeFollowMeSeeds.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 272D629A21BAEC530087D9B8 /* ComeFollowMeSeeds.sqlite */; };
 		FE0F14132104CADB0015DF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F14122104CADB0015DF4E /* AppDelegate.swift */; };
 		FE0F14182104CADB0015DF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0F14162104CADB0015DF4E /* Main.storyboard */; };
 		FE0F141B2104CADB0015DF4E /* ComeFollowMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0F14192104CADB0015DF4E /* ComeFollowMe.xcdatamodeld */; };
@@ -165,7 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272D629B21BAEC7C0087D9B8 /* ComeFollowMeSeeds.sqlite in Resources */,
+				272D62A421BCF8960087D9B8 /* ComeFollowMeSeeds.sqlite in Resources */,
 				FE0F14202104CADC0015DF4E /* LaunchScreen.storyboard in Resources */,
 				FE0F141D2104CADC0015DF4E /* Assets.xcassets in Resources */,
 				FE0F14182104CADB0015DF4E /* Main.storyboard in Resources */,

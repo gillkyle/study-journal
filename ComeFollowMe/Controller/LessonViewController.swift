@@ -73,7 +73,6 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
   
   // MARK - DELEGATES
   func textViewDidEndEditing(_ textView: UITextView) {
-    print("Saving input...")
     saveLesson()
   }
   
@@ -85,7 +84,6 @@ class LessonViewController : UITableViewController, UITextViewDelegate {
     let managedContext = appDelegate.persistentContainer.viewContext
     
     if let lesson = lesson {
-      print(goalTextView.text)
       lesson.setValue(goalTextView.text, forKey: "goal")
       lesson.setValue(notesTextView.text, forKey: "notes")
     }
